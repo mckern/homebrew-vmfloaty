@@ -4,8 +4,6 @@ class Vmfloaty < Formula
   url "https://rubygems.org/gems/vmfloaty-0.7.8.gem"
   sha256 "fe8171cbcbeaef500bca56f35cf7fd97756d8665c31c6be71e31d67428ad6a62"
 
-  head "https://github.com/briancain/vmfloaty.git"
-
   depends_on :ruby => "2.2"
 
   resource "colorize" do
