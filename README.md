@@ -2,16 +2,28 @@
 
 ### How do I use this?
 
-```bash
+```
 mckern@flexo ~ $ brew tap mckern/vmfloaty
 ==> Tapping mckern/vmfloaty
-< blah blah blah>
-mckern@flexo floaty (git:master) $ brew install vmfloaty
+<blah blah blah>
+mckern@flexo ~ $ brew install vmfloaty
+<blah blah blah>
+mckern@flexo ~ $ floaty -h
+WARNING: There was no config file at /Users/mckern/.vmfloaty.yml
+  NAME:
+
+    floaty
+
+  DESCRIPTION:
+
+    A CLI helper tool for Puppet Labs vmpooler to help you stay afloat
+<blah blah blah>
+mckern@flexo ~ $
 ```
 
 ### Why would I use this?
 
-Ruby is trash for standalone applications, but Homebrew is pretty solid at wrapping up applications with funky dependencies or wonky runtimes. Snip-snip-snip, Bob's your uncle, and here's a Homebrew tap for your troubles!
+[vmfloaty](https://github.com/briancain/vmfloaty) is a fantastic client for the Puppet [vmpooler](https://github.com/puppetlabs/vmpooler) application. But Ruby is kinda trash for installing standalone applications in unpoluted environments. Great news though! Homebrew is pretty solid at wrapping up applications with funky dependencies or wonky runtimes. Snip-snip-snip, Bob's your uncle, and here's a Homebrew tap for your troubles!
 
 ### Support & contribution?
 
@@ -19,7 +31,7 @@ In the spirit of Jordan Sissel (a hero to admins and operations people everywher
 
 ### License
 
-Fustigate is licensed under the MIT License
+homebrew-vmfloaty is licensed under the MIT License
 
 > Those who do not understand UNIX are
 > condemned to reinvent it, poorly.
