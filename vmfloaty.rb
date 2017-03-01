@@ -27,11 +27,11 @@ class Vmfloaty < Formula
     (lib/"vmfloaty/vendor").mkpath
     resources.each do |r|
       r.verify_download_integrity(r.fetch)
-      system("gem", "install", r.cached_download, "--no-document",
+      system("#{HOMEBREW_PREFIX}/bin/gem", "install", r.cached_download, "--no-document",
              "--install-dir", vendor_dir.to_s)
     end
 
-    system("gem", "install", cached_download, "--no-document",
+    system("#{HOMEBREW_PREFIX}/bin/gem", "install", cached_download, "--no-document",
              "--install-dir", vendor_dir.to_s)
 
     rm_f Dir["#{vendor_dir}/cache/*.gem"]
