@@ -1,8 +1,8 @@
 class Vmfloaty < Formula
   desc "CLI helper tool for Puppet vmpooler to help you stay afloat"
   homepage "https://github.com/briancain/vmfloaty"
-  url "https://rubygems.org/gems/vmfloaty-0.7.8.gem"
-  sha256 "fe8171cbcbeaef500bca56f35cf7fd97756d8665c31c6be71e31d67428ad6a62"
+  url "https://rubygems.org/gems/vmfloaty-0.7.9.gem"
+  sha256 "83979dc8f82764e67c5783fcfad79103f4b3391f44c2a5b9caeeb7d1fd3f3418"
 
   depends_on :ruby => "2.2"
 
